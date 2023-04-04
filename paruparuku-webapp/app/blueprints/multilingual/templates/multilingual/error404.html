@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Page Not Found | ParuParuKu</title>
+        <link rel="stylesheet" href="/static/css/style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+            crossorigin="anonymous"
+        />
+        <link
+            rel="shortcut icon"
+            href="/static/assets/logo.png"
+            type="image/x-icon"
+        />
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+        <header>
+            <nav class="navbar navbar-expand-lg">
+                <div
+                    class="container-fluid col-xxl-8 container px-4 d-flex justify-content-between"
+                >
+                    <a class="navbar-brand" href="/">ParuParuKu</a>
+
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse"
+                        id="navbarSupportedContent"
+                    >
+                        <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/en/our-objectives">
+                                    Our Objectives
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/en/about-us"
+                                    >About Us</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="hero">
+                <div class="container col-xxl-8 px-4 py-5">
+                    <div
+                        class="row flex-lg-row-reverse align-items-center g-5 pt-5"
+                    >
+                        <div class="col-10 col-sm-8 col-lg-6">
+                            <img
+                                src="/static/assets/404.svg"
+                                class="d-block mx-lg-auto img-fluid hero-img"
+                                alt="An illustration of mountain with number of 404"
+                                width="700"
+                                height="500"
+                                loading="lazy"
+                            />
+                        </div>
+                        <div class="col-lg-6">
+                            <h1 class="display-6 fw-bold mb-3">
+                                Page Not Found
+                            </h1>
+                            <p class="lead">
+                                The link is broken or the page has been moved.
+                                <br />
+                                Please visit another link!
+                            </p>
+                            <a href="/" type="button" class="btn btn-primary">
+                                Return to home page
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="mt-auto">
+            <div
+                class="col-xxl-8 container d-flex flex-wrap justify-content-between align-items-center pt-3 px-4 border-top"
+            >
+                <p class="col-md-4 mb-0 text-muted">
+                    &copy;
+                    <span id="year"></span>
+                    Team Pengacara
+                </p>
+
+                <ul class="nav col-md-4 justify-content-end">
+                    <li class="nav-item">
+                        <button
+                            onclick="topFunction()"
+                            class="btn btn-link p-0 py-2 nav-link text-primary"
+                        >
+                            Back to top
+                        </button>
+                    </li>
+                </ul>
+            </div>
+            <div
+                class="col-xxl-8 container d-flex flex-wrap justify-content-start pb-3 px-4 my-4"
+            >
+                <p class="mb-0 text-muted">
+                    <strong class="fw-semibold">Disclaimer: </strong>
+                    This website only generates predictions based on
+                    <a target="_blank" href="https://kaggle.com"
+                        >Kaggle Dataset</a
+                    >
+                    using three transfer learning models in
+                    <a target="_blank" href="https://keras.io/api/applications/"
+                        >Keras</a
+                    >
+                    and should not be used to substitute medical professionals
+                    in diagnosing pneumonia. Any advice given by this website is
+                    collected from <a href="/en/sources">various sources</a> and
+                    should not be treated as medical advice given by medical
+                    professionals. The developers of this website are not
+                    responsible for the damages caused by the results generated
+                    by this website.
+                </p>
+            </div>
+        </footer>
+    </body>
+
+    <script>
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"
+    ></script>
+</html>

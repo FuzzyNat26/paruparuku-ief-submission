@@ -1,0 +1,84 @@
+{% extends "layout.html" %} {% block title %}{{ gettext('Not an X-ray Image') | safe}}{% endblock %} 
+
+{% block content%}
+<section id="hero">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="data:image/jpeg;base64,{{ image_file }}"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="User's image"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-6 fw-bold mb-3">
+                    {{ gettext('Not an X-ray Image') | safe
+                    }}
+                </h1>
+                <p class="lead">
+                    {{ gettext('We don\'t think your uploaded image is an X-ray image. Uploading images that have unusual angles or colors may cause this issue.
+                    <br /><br />
+                    Please refer to the example below and upload it again in the form below!') | safe }}
+                </p>
+                <form
+                    autocomplete="off"
+                    method="POST"
+                    action="{{ url_for('multilingual.detection') }}"
+                    enctype="multipart/form-data"
+                >
+                    <div class="input-group mb-3">
+                        <input
+                            type="file"
+                            accept="image/png, image/jpeg, image/jpg"
+                            name="user_image_input"
+                            class="form-control"
+                            id="user_image_input"
+                            required`
+                        />
+                        <button
+                            type="submit"
+                            class="input-group-text btn btn-primary"
+                            onclick="toggleUploadLoader()"
+                        >
+                            {{ gettext('Submit') | safe }}
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-even">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/not-x-ray-image-1.jpeg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="X-ray image example"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold mb-3">
+                    {{ gettext('What should you upload?') | safe }}
+                </h1>
+                <p class="lead">
+                    {{ gettext('ParuParuKu only detects specific kinds of images, so it is best that you upload your images that are similar to this image.
+                    <br /><br />
+                    We recommend that you scan your images first, then convert it to a supported file extension such as .jpg .jpeg or .png.
+                    ') |
+                    safe }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock%}

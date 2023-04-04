@@ -1,0 +1,56 @@
+{% extends "layout.html" %} {% block title %}{{ gettext('Wrong File Extension') | safe}}{% endblock %} 
+
+{% block content%}
+<section id="hero">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/wrong-extension-1.png"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="An illustration that resebles confused person"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-6 fw-bold mb-3">
+                    {{ gettext('Wrong File Extension!') | safe
+                    }}
+                </h1>
+                <p class="lead">
+                    {{ gettext('We cannot process your request as we don\'t think this is the correct file extension. 
+                    <br /><br />
+                    Please upload an x-ray image with a .jpg, .jpeg, or .png extension!') | safe }}
+                </p>
+                <form
+                    autocomplete="off"
+                    method="POST"
+                    action="{{ url_for('multilingual.detection') }}"
+                    enctype="multipart/form-data"
+                >
+                    <div class="input-group mb-3">
+                        <input
+                            type="file"
+                            accept="image/png, image/jpeg, image/jpg"
+                            name="user_image_input"
+                            class="form-control"
+                            id="user_image_input"
+                            required`
+                        />
+                        <button
+                            type="submit"
+                            class="input-group-text btn btn-primary"
+                            onclick="toggleUploadLoader()"
+                        >
+                            {{ gettext('Submit') | safe }}
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock%}

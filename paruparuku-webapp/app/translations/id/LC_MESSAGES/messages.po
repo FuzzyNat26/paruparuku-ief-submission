@@ -1,0 +1,760 @@
+# Indonesian translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-04-02 20:04+0700\n"
+"PO-Revision-Date: 2022-11-19 13:57+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: id\n"
+"Language-Team: id <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:1
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:19
+#: app/templates/layout.html:105 app/templates/layout.html:111
+msgid "About Us"
+msgstr "Tentang Kami"
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:22
+#, fuzzy
+msgid ""
+" We are four college students called\n"
+"                    <strong class=\"fw-semibold\">\"Team "
+"Pengacara\"</strong> from\n"
+"                    <a target=\"_blank\" href=\"https://www.uib.ac.id/\"\n"
+"                        >Universitas Internasional Batam</a\n"
+"                    >. <br /><br />\n"
+"                    ParuParuKu is a Flask-based web application that was "
+"built\n"
+"                    by our amazing team for detecting pneumonia from "
+"patient's\n"
+"                    X-ray image."
+msgstr ""
+"Kami adalah empat mahasiswa yang disebut\n"
+"                    <strong class=\"fw-semibold\">\"Tim "
+"Pengacara\"</strong> dari\n"
+"                    <a target=\"_blank\" href=\"https://www.uib.ac.id/\"\n"
+"                        >Universitas Internasional Batam</a\n"
+"                    >. <br /><br />\n"
+"                    ParuParuKu merupakan sebuah aplikasi web berbasis Flask yang dibangun oleh tim kami yang luar biasa"
+" untuk mendeteksi pneumonia dari gambar sinar-X milik pasien."
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:38
+msgid "Team Member"
+msgstr "Anggota Tim"
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:1
+#: app/blueprints/multilingual/templates/multilingual/error500.html:20
+msgid "Internal Server Error"
+msgstr "Kesalahan Server Internal"
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:23
+msgid ""
+"Oops! Something went wrong.\n"
+"                        <br />\n"
+"                        This may be caused by server errors or "
+"misconfigurations and was unable to complete your request\n"
+"                        <br /><br />\n"
+"                        Try to refresh the page and feel free to\n"
+"                        <a target=\"_blank\" "
+"href=\"mailto:2031016.jonathan@uib.edu\">contact us</a>\n"
+"                        if the problem persists."
+msgstr ""
+"Ups! Ada sesuatu yang salah.\n"
+"<br />\n"
+"Ini mungkin disebabkan oleh kesalahan server atau ekstensi file yang "
+"tidak valid diunggah!\n"
+"<br /><br />\n"
+"Coba muat ulang halamannya dan jangan ragu untuk <a target=\"_blank\" "
+"href=\"mailto:2031016.jonathan@uib.edu\">menghubungi kami</a> jika "
+"masalah berlanjut."
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:32
+msgid "Return to Main Page"
+msgstr "Kembali ke Halaman Utama"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:1
+msgid "ParuParuKu"
+msgstr "ParuParuKu"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:19
+msgid "We are here to help with your concerns!"
+msgstr "Kami di sini untuk membantu masalah Anda!"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:23
+msgid ""
+"ParuParuKu will help predict how likely\n"
+"                    you are to be infected with pneumonia based on your "
+"X-ray\n"
+"                    scan!"
+msgstr ""
+"ParuParuKu akan membantu memprediksi seberapa besar kemungkinan Anda "
+"terinfeksi pneumonia berdasarkan pemindaian sinar-X Anda!"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:47
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:47
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:132
+#: app/blueprints/multilingual/templates/multilingual/result.html:328
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:47
+msgid "Submit"
+msgstr "Kirim"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:68
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >NordWood Themes</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://unsplash.com/s/photos/nordwood-"
+"themes-"
+"phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"Foto oleh\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >NordWood Themes</a\n"
+"                    >\n"
+"                    di\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://unsplash.com/s/photos/nordwood-"
+"themes-"
+"phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:83
+msgid "A photo is all you need!"
+msgstr "Hanya foto yang Anda butuhkan!"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:86
+msgid ""
+"We immediately predict your pneumonia diagnosis\n"
+"                    result using our 3 types of machine learning models."
+msgstr ""
+"Kami segera memprediksi hasil diagnosis pneumonia\n"
+"Anda menggunakan 3 jenis model pembelajaran mesin kami."
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:112
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@pattybphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Patty Brito</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/s/photos/doctor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"Foto oleh\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@pattybphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Patty Brito</a\n"
+"                    >\n"
+"                    di\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/s/photos/doctor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:127
+msgid "Don't know what to do next?"
+msgstr "Tidak tahu apa yang harus dilakukan selanjutnya?"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:130
+msgid ""
+"We can give research-based recommendations\n"
+"                    depending on your diagnosis results."
+msgstr ""
+"Kami dapat memberikan rekomendasi berbasis penelitian tergantung pada "
+"hasil diagnosis Anda."
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:1
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:19
+msgid "Not an X-ray Image"
+msgstr "Bukan Gambar Sinar-X"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:23
+msgid ""
+"We don't think your uploaded image is an X-ray image. Uploading images "
+"that have unusual angles or colors may cause this issue.\n"
+"                    <br /><br />\n"
+"                    Please refer to the example below and upload it again"
+" in the form below!"
+msgstr ""
+"Menurut kami gambar yang Anda unggah bukanlah gambar sinar-X. Mengunggah "
+"gambar dengan sudut pandang atau warna yang tidak sesuai dapat "
+"menyebabkan masalah ini."
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:70
+msgid "What should you upload?"
+msgstr "Apa yang harus Anda unggah?"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:73
+msgid ""
+"ParuParuKu only detects specific kinds of images, so it is best that you "
+"upload your images that are similar to this image.\n"
+"                    <br /><br />\n"
+"                    We recommend that you scan your images first, then "
+"convert it to a supported file extension such as .jpg .jpeg or .png.\n"
+"                    "
+msgstr ""
+"ParuParuKu hanya mendeteksi jenis gambar tertentu, jadi kami menyarankan "
+"Anda untuk mengunggah gambar yang mirip dengan gambar ini.<br /><br />\n"
+"Sebaiknya Anda memindai gambar Anda terlebih dahulu, lalu mengonversinya "
+"menjadi ekstensi file yang didukung seperti .jpg .jpeg atau .png."
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:1
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:7
+#: app/templates/layout.html:87 app/templates/layout.html:94
+msgid "Our Objectives"
+msgstr "Tujuan Kami"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:11
+msgid ""
+"is to provide users with\n"
+"                <strong class=\"fw-semibold\">early detection</strong>\n"
+"                of pneumonia based on X-ray images!"
+msgstr ""
+"adalah untuk memberi pengguna <strong class=\"fw-semibold\">deteksi "
+"pneumonia dini</strong> berdasarkan gambar sinar-X!"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:31
+msgid ""
+" Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >dr. Irene Cindy Sunur</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >Alodokter</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"Foto oleh\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >dr. Irene Cindy Sunur</a\n"
+"                    >\n"
+"                    di\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >Alodokter</a\n"
+"                    >\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:46
+msgid "About pneumonia"
+msgstr "Tentang pneumonia"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:49
+msgid ""
+"Pneumonia is an inflammation of the tissue in\n"
+"                    lungs caused by infection. Pneumonia can cause mild "
+"to\n"
+"                    severe symptoms, such as coughing, fever, nausea, "
+"wheezing,\n"
+"                    shortness of breath, and chest pain.<br /><br />\n"
+"                    Pneumonia is not only found in adults but also in\n"
+"                    children."
+msgstr ""
+"Pneumonia adalah peradangan jaringan di paru-paru yang disebabkan oleh "
+"infeksi. Pneumonia dapat menyebabkan gejala ringan hingga berat, seperti "
+"batuk, demam, mual, mengi, sesak napas, dan nyeri dada.\n"
+"<br /><br \n"
+"Pneumonia tidak hanya ditemukan pada orang dewasa tetapi juga pada anak-"
+"anak."
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:73
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Walter Otto</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"Foto oleh\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Walter Otto</a\n"
+"                    >\n"
+"                    di\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:88
+msgid "Why should you use this ParuParuKu?"
+msgstr "Mengapa Anda harus menggunakan ParuParuKu?"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:91
+msgid ""
+"There are times when doctors aren't available to\n"
+"                    make a diagnosis on recently performed X-ray scans.\n"
+"                    <br /><br />So early diagnosis is needed to take "
+"further\n"
+"                    action."
+msgstr ""
+"Ada kalanya dokter tidak tersedia untuk membuat diagnosis pada pemindaian"
+" sinar-X yang baru dilakukan.\n"
+"<br/><br/>Sehingga diperlukan diagnosis dini untuk melakukan tindakan "
+"lebih lanjut."
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:105
+msgid "Which is why, we are ready to help!"
+msgstr "Makanya, kami siap membantu!"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:109
+msgid ""
+"ParuParuKu will help predict your pneumonia\n"
+"                diagnosis result based on your X-ray scan."
+msgstr ""
+"ParuParuKu akan membantu memprediksi hasil diagnosis pneumonia Anda "
+"berdasarkan pemindaian sinar-X Anda."
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:1
+#: app/blueprints/multilingual/templates/multilingual/result.html:26
+msgid "Diagnosis Report"
+msgstr "Laporan Diagnosis"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:31
+msgid ""
+"It is <strong class=\"fw-bold\">very unlikely</strong> that you have "
+"pneumonia"
+msgstr ""
+"<strong class=\"fw-bold\">Sangat kecil kemungkinan</strong> Anda terkena "
+"pneumonia"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:34
+msgid "It is <strong class=\"fw-bold\">unlikely</strong> that you have pneumonia"
+msgstr ""
+"<strong class=\"fw-bold\">Kecil kemungkinan</strong> Anda terkena "
+"pneumonia"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:37
+msgid "It is <strong class=\"fw-bold\">likely</strong> that you have pneumonia"
+msgstr "<strong class=\"fw-bold\">Ada kemungkinan</strong> Anda terkena pneumonia"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:40
+msgid ""
+"It is <strong class=\"fw-bold\">highly likely</strong> that you have "
+"pneumonia"
+msgstr ""
+"<strong class=\"fw-bold\">Besar kemungkinan</strong> Anda terkena "
+"pneumonia"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:43
+msgid ""
+"It is <strong class=\"fw-bold\">extremely likely</strong> that you have "
+"pneumonia"
+msgstr ""
+"<strong class=\"fw-bold\">Sangat besar kemungkinan</strong> Anda terkena "
+"pneumonia"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:100
+msgid "Based on predictions"
+msgstr "Berdasarkan prediksi"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:102
+msgid "Your lungs have a"
+msgstr "Paru-paru Anda memiliki kemungkinan"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:106
+msgid ""
+"probability of being infected by pneumonia. For a detailed predictions, "
+"please refer to the table below."
+msgstr ""
+"terjangkit oleh pneumonia. Untuk rincian prediksi, silahkan lihat tabel "
+"di bawah ini."
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:112
+msgid "Model Type"
+msgstr "Tipe Model"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:113
+msgid "Normal"
+msgstr "Normal"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:114
+msgid "Pneumonia"
+msgstr "Pneumonia"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:152
+msgid "Average"
+msgstr "Rata-rata"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:181
+msgid ""
+"\n"
+"                        Photo by <a target=\"_blank\" "
+"href=\"https://unsplash.com/es/@jareddrice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Jared"
+" Rice</a> on <a target=\"_blank\" "
+"href=\"https://unsplash.com/s/photos/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+"\n"
+"                    "
+msgstr ""
+"\n"
+"                            Foto oleh <a target=\"_blank\" "
+"href=\"https://unsplash.com/es/@jareddrice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Jared"
+" Rice</a> di <a target=\"_blank\" "
+"href=\"https://unsplash.com/s/photos/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+"\n"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:197
+msgid ""
+"\n"
+"                        Photo by <a target=\"_blank\" "
+"href=\"https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Markus"
+" Spiske</a> on <a target=\"_blank\" href=\"https://unsplash.com/s/photos"
+"/caution-"
+"hand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+"\n"
+"                    "
+msgstr ""
+"\n"
+"                            Foto oleh <a target=\"_blank\" "
+"href=\"https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Markus"
+" Spiske</a> di <a target=\"_blank\" href=\"https://unsplash.com/s/photos"
+"/caution-"
+"hand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+"\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:212
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/serious-thoughtful-man-making-"
+"assumption-looking-right-"
+"thinking_9902339.htm#query=thinking&position=3&from_view=search&track=sph\">Image"
+" by cookie_studio</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"                            <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/serious-thoughtful-man-making-"
+"assumption-looking-right-"
+"thinking_9902339.htm#query=thinking&position=3&from_view=search&track=sph\">Foto"
+" oleh cookie_studio</a> di Freepik\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:227
+#, python-format
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/physician-consulting-his-"
+"patient-"
+"clinic_6190327.htm#query=health%%20consultation&position=0&from_view=search&track=sph\">Image"
+" by senivpetro</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"                            <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/physician-consulting-his-"
+"patient-"
+"clinic_6190327.htm#query=health%%20consultation&position=0&from_view=search&track=sph\">Foto"
+" oleh senivpetro</a> di Freepik\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:242
+#, python-format
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/young-asia-female-doctor-white-"
+"medical-uniform-using-clipboard-is-delivering-great-news-talk-discuss-"
+"results_15114515.htm#query=health%%20consultation&position=19&from_view=search&track=sph\">Image"
+" by tirachardz</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"                            <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/young-asia-female-doctor-white-"
+"medical-uniform-using-clipboard-is-delivering-great-news-talk-discuss-"
+"results_15114515.htm#query=health%%20consultation&position=19&from_view=search&track=sph\">Foto"
+" oleh tirachardz</a> di Freepik\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:252
+msgid "There's no need to worry!"
+msgstr "Tidak perlu khawatir!"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:255
+msgid "Caution is advised!"
+msgstr "Butuh diperhatikan"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:258
+msgid "Consider consulting with your physician!"
+msgstr "Pertimbangkan untuk berkonsultasi dengan dokter Anda!"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:261
+msgid "Visit your physician immediately!"
+msgstr "Segera kunjungi dokter Anda!"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:264
+msgid "Immediately visit your local hospital!"
+msgstr "Segera kunjungi rumah sakit setempat!"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:270
+msgid ""
+"Your lungs are healthy, but that doesn't mean that you don't have to stay"
+" healthy! Remember to stay hydrated, get enough sleep, and exercise "
+"frequently.\n"
+"                    "
+msgstr ""
+"Paru-paru Anda sehat, tetapi bukan berarti Anda tidak harus menjaga "
+"kesehatan! Ingatlah untuk minum air, cukup tidur, dan sering berolahraga"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:274
+msgid ""
+"There's no reason to worry yet, but maybe you can consider these actions!"
+" It's best to avoid smoking and going to public places. Remember to keep "
+"track of any symptoms you might have experienced and consult your local "
+"physician if symptoms get worse or remain for more than a few days.\n"
+"                    "
+msgstr ""
+"Belum ada alasan untuk khawatir, tapi mungkin Anda bisa mempertimbangkan "
+"tindakan ini! Sebaiknya hindari merokok dan pergi ke tempat umum. "
+"Ingatlah untuk melacak gejala apa pun yang mungkin Anda alami dan "
+"konsultasikan dengan dokter setempat jika gejala memburuk atau bertahan "
+"lebih dari beberapa hari."
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:278
+msgid ""
+"There is a possibility that you have pneumonic lungs. It's best to avoid "
+"smoking and going to public places. Remember to keep track of any "
+"symptoms you might have experienced and consult your local physician if "
+"symptoms get worse or remain for more than a few days.\n"
+"                    "
+msgstr ""
+"Ada kemungkinan Anda terjangkit pneumonia. Sebaiknya hindari merokok dan "
+"pergi ke tempat umum. Ingatlah untuk melacak gejala apa pun yang mungkin "
+"Anda alami dan konsultasikan dengan dokter setempat jika gejala memburuk "
+"atau bertahan lebih dari beberapa hari."
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:282
+msgid ""
+"Since we think that you probably have pneumonic lungs, it's best for you "
+"to avoid public places and get enough rest. Remember to visit your local "
+"physician immediately.\n"
+"                    "
+msgstr ""
+"Karena menurut kami Anda mungkin terjangkit pneumonia, sebaiknya Anda "
+"menghindari tempat umum dan istirahat yang cukup. Ingatlah untuk segera "
+"mengunjungi dokter setempat."
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:286
+msgid ""
+"You are extremely likely to have pneumonic lungs, we encourage you to "
+"drink more warm beverages, avoid public places, and consider going to a "
+"hospital for treatment.\n"
+"                    "
+msgstr ""
+"Anda sangat mungkin terjangkit pneumonia, kami menganjurkan Anda untuk "
+"minum lebih banyak minuman hangat, menghindari tempat umum, dan "
+"mempertimbangkan pergi ke rumah sakit untuk perawatan."
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:301
+msgid "Want to re-diagnose?"
+msgstr "Ingin mendiagnosa ulang?"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:305
+msgid ""
+"ParuParuKu will help predict your \n"
+"                pneumonia diagnosis result based on your X-ray scan!"
+msgstr ""
+"ParuParuKu akan membantu memprediksi hasil diagnosis pneumonia Anda "
+"berdasarkan pemindaian X-ray Anda!"
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:1
+#: app/blueprints/multilingual/templates/multilingual/sources.html:19
+msgid "Sources"
+msgstr "Sumber"
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:22
+msgid ""
+" We collected various sources from the Internet to provide you with "
+"advices based on your prediction result."
+msgstr ""
+"Kami mengumpulkan berbagai sumber dari Internet untuk memberi Anda saran "
+"berdasarkan hasil prediksi Anda."
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:30
+msgid "Links"
+msgstr "Tautan"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:1
+msgid "Wrong File Extension"
+msgstr "Ekstensi File Kurang Tepat"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:19
+msgid "Wrong File Extension!"
+msgstr "Ekstensi File Kurang Tepat!"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:23
+msgid ""
+"We cannot process your request as we don't think this is the correct file"
+" extension. \n"
+"                    <br /><br />\n"
+"                    Please upload an x-ray image with a .jpg, .jpeg, or "
+".png extension!"
+msgstr ""
+"Kami tidak dapat memproses permintaan Anda karena menurut kami ini bukan "
+"ekstensi file yang benar.\n"
+"<br /><br />\n"
+"Harap unggah gambar sinar-x dengan ekstensi .jpg, .jpeg, atau .png!"
+
+#: app/templates/layout.html:123
+msgid "🇺🇸 EN"
+msgstr "🇮🇩 ID"
+
+#: app/templates/layout.html:218
+msgid "Back to top"
+msgstr "Kembali ke atas"
+
+#: app/templates/layout.html:227
+msgid ""
+"\n"
+"                    <strong class=\"fw-semibold\">Disclaimer: </strong>\n"
+"                    This website only generates predictions based on\n"
+"                    <a target=\"_blank\" href=\"https://kaggle.com\"\n"
+"                        >Kaggle Dataset</a\n"
+"                    >\n"
+"                    using three transfer learning models in\n"
+"                    <a target=\"_blank\" "
+"href=\"https://keras.io/api/applications/\"\n"
+"                        >Keras</a\n"
+"                    >\n"
+"                    and should not be used to substitute medical "
+"professionals\n"
+"                    in diagnosing pneumonia. Any advice given by this "
+"website is\n"
+"                    collected from <a href=\"/en/sources\">various "
+"sources</a> and\n"
+"                    should not be treated as medical advice given by "
+"medical\n"
+"                    professionals. The developers of this website are not"
+"\n"
+"                    responsible for the damages caused by the results "
+"generated\n"
+"                    by this website."
+msgstr ""
+"<strong class=\"fw-semibold\">Perhatian: </strong>\n"
+"Situs web ini hanya menghasilkan prediksi berdasarkan <a "
+"target=\"_blank\" href=\"https://kaggle.com\">Kaggle Dataset</a> "
+"menggunakan tiga model pembelajaran transfer dari <a target=\"_blank\" "
+"href=\"https://keras.io/api/applications/\">Keras</a> dan tidak boleh "
+"digunakan untuk menggantikan tenaga medis profesional dalam mendiagnosis "
+"pneumonia. Nasihat apa pun yang diberikan oleh situs web ini dikumpulkan "
+"dari <a href=\"/id/sumber\">berbagai sumber</a> dan tidak boleh dianggap "
+"sebagai nasihat medis yang diberikan oleh tenaga medis profesional. "
+"Pengembang situs web ini tidak bertanggung jawab atas kerusakan yang "
+"disebabkan oleh keputusan yang dihasilkan oleh situs web ini."
+
+#: app/templates/layout.html:261
+msgid "Uploading image..."
+msgstr "Sedang mengunggah gambar..."
+
+#: app/templates/layout.html:267
+msgid "Did you know?"
+msgstr "Tahukah Anda?"
+
+#: app/templates/layout.html:293
+msgid ""
+"Medical experts have discovered more than 30 causes of pneumonia, such as"
+" bacteria, fungi, dust, and more!"
+msgstr ""
+"Para ahli medis telah menemukan lebih dari 30 penyebab pneumonia, seperti"
+" bakteri, jamur, debu, dan banyak lagi!"
+
+#: app/templates/layout.html:294
+msgid ""
+"The COVID-19 virus is able to cause a special type of pneumonia where it "
+"uses our own immune systems to spread, making it last longer and causing "
+"damage in more places in our body."
+msgstr ""
+"Virus COVID-19 dapat menyebabkan pneumonia jenis khusus yang menggunakan "
+"sistem kekebalan tubuh kita sendiri untuk menyebar, membuatnya bertahan "
+"lebih lama dan menyebabkan kerusakan di lebih banyak tempat di tubuh "
+"kita."
+
+#: app/templates/layout.html:295
+msgid ""
+"Just like COVID-19, washing our hands with soap also reduces the risk of "
+"getting pneumonia disease."
+msgstr ""
+"Seperti COVID-19, cuci tangan dengan sabun juga mengurangi resiko "
+"terjangkit pneumonia."
+
+#: app/templates/layout.html:296
+msgid ""
+"The sooner a child gets the vaccine, the less likely for them to be "
+"infected by pneumonia."
+msgstr ""
+"Semakin cepat seorang anak mendapatkan vaksin, semakin kecil kemungkinan "
+"mereka terkena pneumonia."
+
+#: app/templates/layout.html:297
+msgid ""
+"Drinking warm beverages, such as warm water or tea helps loosen the mucus"
+" in your lungs when you are infected with pneumonia."
+msgstr ""
+"Minum minuman hangat, seperti air hangat atau teh membantu melonggarkan "
+"lendir di paru-paru saat Anda terinfeksi pneumonia."
+

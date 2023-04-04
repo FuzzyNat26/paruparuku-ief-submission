@@ -1,0 +1,738 @@
+# Japanese translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-04-02 20:04+0700\n"
+"PO-Revision-Date: 2022-11-19 13:54+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ja\n"
+"Language-Team: ja <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:1
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:19
+#: app/templates/layout.html:105 app/templates/layout.html:111
+msgid "About Us"
+msgstr "私たちについて"
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:22
+msgid ""
+" We are four college students called\n"
+"                    <strong class=\"fw-semibold\">\"Team "
+"Pengacara\"</strong> from\n"
+"                    <a target=\"_blank\" href=\"https://www.uib.ac.id/\"\n"
+"                        >Universitas Internasional Batam</a\n"
+"                    >. <br /><br />\n"
+"                    ParuParuKu is a Flask-based web application that was "
+"built\n"
+"                    by our amazing team for detecting pneumonia from "
+"patient's\n"
+"                    X-ray image."
+msgstr ""
+"我々は <a target=\"_blank\" href=\"https://www.uib.ac.id/\">Universitas Internasional Batam</a> 大学の<strong class=\"fw-semibold\">「Team Pengacara」</strong>と呼ばれる４人の大学生であります。"
+"<br /><br />ParuParuKu は X 線撮影にて肺炎を検出ための Flask で開発されたウェブアプリケーションであります。"
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:38
+msgid "Team Member"
+msgstr "隊員"
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:1
+#: app/blueprints/multilingual/templates/multilingual/error500.html:20
+msgid "Internal Server Error"
+msgstr "内部サーバーエラー"
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:23
+msgid ""
+"Oops! Something went wrong.\n"
+"                        <br />\n"
+"                        This may be caused by server errors or "
+"misconfigurations and was unable to complete your request\n"
+"                        <br /><br />\n"
+"                        Try to refresh the page and feel free to\n"
+"                        <a target=\"_blank\" "
+"href=\"mailto:2031016.jonathan@uib.edu\">contact us</a>\n"
+"                        if the problem persists."
+msgstr ""
+"おっと！問題が起こりそう。\n"
+"<br/>\n"
+"これは、サーバーエラーまたは無効なファイル拡張子がアップロードされたことが原因である可能性があります。\n"
+"<br/><br/>\n"
+"ページを更新してみてください。それに、問題が解決しない場合は自由に\n"
+"<a href=\"mailto:2031016.jonathan@uib.edu\">連絡してください。</a>\n"
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:32
+msgid "Return to Main Page"
+msgstr "ホームページに戻る"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:1
+msgid "ParuParuKu"
+msgstr "ParuParuKu"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:19
+msgid "We are here to help with your concerns!"
+msgstr "私たちはあなたの懸念を助けるためにここにいます"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:23
+msgid ""
+"ParuParuKu will help predict how likely\n"
+"                    you are to be infected with pneumonia based on your "
+"X-ray\n"
+"                    scan!"
+msgstr ""
+"X 線スキャンに基づいて\n"
+"肺炎に感染する可能性を\n"
+"予測するのに役立ちます"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:47
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:47
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:132
+#: app/blueprints/multilingual/templates/multilingual/result.html:328
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:47
+msgid "Submit"
+msgstr "保存"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:68
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >NordWood Themes</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://unsplash.com/s/photos/nordwood-"
+"themes-"
+"phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"<a href=\"https://unsplash.com/s/photos/nordwood-themes-"
+"phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">"
+"\n"
+"Unsplash</a>\n"
+"の<a "
+"href=\"https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">NordWood"
+" Themes</a>による\n"
+"写真"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:83
+msgid "A photo is all you need!"
+msgstr "必要なのは写真だけ！"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:86
+msgid ""
+"We immediately predict your pneumonia diagnosis\n"
+"                    result using our 3 types of machine learning models."
+msgstr ""
+"3種類の機械学習モデルにより、\n"
+"肺炎の診断結果を即時に予測します。"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:112
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@pattybphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Patty Brito</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/s/photos/doctor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"<a "
+"href=\"https://unsplash.com/s/photos/doctor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">"
+"\n"
+"Unsplash</a>\n"
+"の<a "
+"href=\"https://unsplash.com/@pattybphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Patty"
+" Brito</a>による\n"
+"写真"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:127
+msgid "Don't know what to do next?"
+msgstr "次に何をすべきかわからない場合"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:130
+msgid ""
+"We can give research-based recommendations\n"
+"                    depending on your diagnosis results."
+msgstr ""
+"診断結果に応じて\n"
+"研究に基づいた推奨事項を提供できます。"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:1
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:19
+msgid "Not an X-ray Image"
+msgstr "X線画像ではありません"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:23
+msgid ""
+"We don't think your uploaded image is an X-ray image. Uploading images "
+"that have unusual angles or colors may cause this issue.\n"
+"                    <br /><br />\n"
+"                    Please refer to the example below and upload it again"
+" in the form below!"
+msgstr ""
+"アップロードされた画像は X 線画像ではないと思われます。 通常とは異なる角度や色の画像をアップロードすると、この問題が発生する可能性があります。"
+"\n"
+"                    <br /><br />\n"
+"                    以下の例を参照して、下のフォームで再度アップロードしてください。"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:70
+msgid "What should you upload?"
+msgstr "どんな写真をアップロードするの？"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:73
+msgid ""
+"ParuParuKu only detects specific kinds of images, so it is best that you "
+"upload your images that are similar to this image.\n"
+"                    <br /><br />\n"
+"                    We recommend that you scan your images first, then "
+"convert it to a supported file extension such as .jpg .jpeg or .png.\n"
+"                    "
+msgstr ""
+"ParuParuKuは特定の種類の画像のみを検出するため、この画像に類似した画像をアップロードすることをお勧めします。\n"
+"                    <br /><br />\n"
+"                    最初に画像をスキャンしてから、サポートされているファイル拡張子(.jpg、.jpeg、.png "
+"など)に変換することをお勧めします\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:1
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:7
+#: app/templates/layout.html:87 app/templates/layout.html:94
+msgid "Our Objectives"
+msgstr "私たちの目的"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:11
+msgid ""
+"is to provide users with\n"
+"                <strong class=\"fw-semibold\">early detection</strong>\n"
+"                of pneumonia based on X-ray images!"
+msgstr ""
+"X線画像に基づいて肺炎の\n"
+"                <strong class=\"fw-semibold\">早期発見</strong>\n"
+"                をユーザーに提供することです!"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:31
+msgid ""
+" Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >dr. Irene Cindy Sunur</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >Alodokter</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+" 写真提供：\n"
+"                    <a\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >dr. Irene Cindy Sunur</a\n"
+"                    >\n"
+"                    <a\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >Alodokterから</a\n"
+"                    >\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:46
+msgid "About pneumonia"
+msgstr "肺炎について"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:49
+msgid ""
+"Pneumonia is an inflammation of the tissue in\n"
+"                    lungs caused by infection. Pneumonia can cause mild "
+"to\n"
+"                    severe symptoms, such as coughing, fever, nausea, "
+"wheezing,\n"
+"                    shortness of breath, and chest pain.<br /><br />\n"
+"                    Pneumonia is not only found in adults but also in\n"
+"                    children."
+msgstr ""
+"肺炎は、感染によって引き起こされる\n"
+"                    肺の組織の炎症です。 肺炎は 咳、\n"
+"                    発熱、吐き気、喘鳴、息切れ、胸痛など の軽度から\n"
+"                    重度の症状を引き起こす可能性があります。<br /><br />\n"
+"                    肺炎は成人だけでなく子供にも\n"
+"                    見られます."
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:73
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Walter Otto</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"写真提供：\n"
+"                    <a\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Walter Otto</a\n"
+"                    >\n"
+"                    <a\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplashから</a\n"
+"                    >\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:88
+msgid "Why should you use this ParuParuKu?"
+msgstr "なぜこのParuParuKuを使用する必要があるのですか?"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:91
+msgid ""
+"There are times when doctors aren't available to\n"
+"                    make a diagnosis on recently performed X-ray scans.\n"
+"                    <br /><br />So early diagnosis is needed to take "
+"further\n"
+"                    action."
+msgstr ""
+"患者がスキャンや X 線の結果を得ることもありますが、\n"
+"                    診断を下す医師はいません\n"
+"                    <br /><br />そのため、さらなる対策を講じるには 早期診断が\n"
+"                    必要です。"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:105
+msgid "Which is why, we are ready to help!"
+msgstr "だからこそ、私たちはお手伝いする準備ができています!"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:109
+msgid ""
+"ParuParuKu will help predict your pneumonia\n"
+"                diagnosis result based on your X-ray scan."
+msgstr ""
+"ParuParuKuは、X 線スキャンに基づいて\n"
+"                肺炎の診断結果を予測するのに役立ちます!"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:1
+#: app/blueprints/multilingual/templates/multilingual/result.html:26
+msgid "Diagnosis Report"
+msgstr "診断レポート"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:31
+msgid ""
+"It is <strong class=\"fw-bold\">very unlikely</strong> that you have "
+"pneumonia"
+msgstr "肺炎になる可能性は <strong class=\"fw-bold\">極めて低い</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:34
+msgid "It is <strong class=\"fw-bold\">unlikely</strong> that you have pneumonia"
+msgstr "肺炎になる可能性は <strong class=\"fw-bold\">低い</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:37
+msgid "It is <strong class=\"fw-bold\">likely</strong> that you have pneumonia"
+msgstr "肺炎になる可能性は <strong class=\"fw-bold\">中程度</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:40
+msgid ""
+"It is <strong class=\"fw-bold\">highly likely</strong> that you have "
+"pneumonia"
+msgstr "肺炎になる可能性は <strong class=\"fw-bold\">高い</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:43
+msgid ""
+"It is <strong class=\"fw-bold\">extremely likely</strong> that you have "
+"pneumonia"
+msgstr "肺炎になる可能性は <strong class=\"fw-bold\">非常に高い</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:100
+msgid "Based on predictions"
+msgstr "予測に基づく"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:102
+msgid "Your lungs have a"
+msgstr "あなたの肺が"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:106
+msgid ""
+"probability of being infected by pneumonia. For a detailed predictions, "
+"please refer to the table below."
+msgstr "肺炎に感染する確率はであり、以下に詳細な予測を示します。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:112
+msgid "Model Type"
+msgstr "モデル種類"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:113
+msgid "Normal"
+msgstr "正常"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:114
+msgid "Pneumonia"
+msgstr "肺炎"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:152
+msgid "Average"
+msgstr "平均"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:181
+msgid ""
+"\n"
+"                        Photo by <a target=\"_blank\" "
+"href=\"https://unsplash.com/es/@jareddrice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Jared"
+" Rice</a> on <a target=\"_blank\" "
+"href=\"https://unsplash.com/s/photos/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+"\n"
+"                    "
+msgstr ""
+"\n"
+"                            写真提供: <a "
+"href=\"https://unsplash.com/es/@jareddrice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Jared"
+" Rice</a> <a "
+"href=\"https://unsplash.com/s/photos/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplashから</a>"
+"\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:197
+msgid ""
+"\n"
+"                        Photo by <a target=\"_blank\" "
+"href=\"https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Markus"
+" Spiske</a> on <a target=\"_blank\" href=\"https://unsplash.com/s/photos"
+"/caution-"
+"hand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+"\n"
+"                    "
+msgstr ""
+"\n"
+"                            写真提供： <a "
+"href=\"https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Markus"
+" Spiske</a>  <a href=\"https://unsplash.com/s/photos/caution-"
+"hand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplashから</a>"
+"\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:212
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/serious-thoughtful-man-making-"
+"assumption-looking-right-"
+"thinking_9902339.htm#query=thinking&position=3&from_view=search&track=sph\">Image"
+" by cookie_studio</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"                            <a href=\"https://www.freepik.com/free-photo"
+"/serious-thoughtful-man-making-assumption-looking-right-"
+"thinking_9902339.htm#query=thinking&position=3&from_view=search&track=sph\">Freepikの"
+" cookie_studio</a>による画像\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:227
+#, python-format
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/physician-consulting-his-"
+"patient-"
+"clinic_6190327.htm#query=health%%20consultation&position=0&from_view=search&track=sph\">Image"
+" by senivpetro</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"                            <a href=\"https://www.freepik.com/free-photo"
+"/physician-consulting-his-patient-"
+"clinic_6190327.htm#query=health%%20consultation&position=0&from_view=search&track=sph\">Freepikのsenivpetro</a>による画像"
+"\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:242
+#, python-format
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/young-asia-female-doctor-white-"
+"medical-uniform-using-clipboard-is-delivering-great-news-talk-discuss-"
+"results_15114515.htm#query=health%%20consultation&position=19&from_view=search&track=sph\">Image"
+" by tirachardz</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"                            <a href=\"https://www.freepik.com/free-photo"
+"/young-asia-female-doctor-white-medical-uniform-using-clipboard-is-"
+"delivering-great-news-talk-discuss-"
+"results_15114515.htm#query=health%%20consultation&position=19&from_view=search&track=sph\">Freepikのtirachardz</a>による画像"
+"\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:252
+msgid "There's no need to worry!"
+msgstr "心配する必要はありません！"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:255
+msgid "Caution is advised!"
+msgstr "注意が必要です"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:258
+msgid "Consider consulting with your physician!"
+msgstr "主治医に相談してみてください！"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:261
+msgid "Visit your physician immediately!"
+msgstr "すぐに医師の診察を受けてください。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:264
+msgid "Immediately visit your local hospital!"
+msgstr "すぐに地元の病院に行きましょう！"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:270
+msgid ""
+"Your lungs are healthy, but that doesn't mean that you don't have to stay"
+" healthy! Remember to stay hydrated, get enough sleep, and exercise "
+"frequently.\n"
+"                    "
+msgstr ""
+"あなたの肺は健康ですが、それはあなたが健康を維持する必要がないという意味ではありません! 水分補給、十分な睡眠 頻繁な運動を忘れずに。\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:274
+msgid ""
+"There's no reason to worry yet, but maybe you can consider these actions!"
+" It's best to avoid smoking and going to public places. Remember to keep "
+"track of any symptoms you might have experienced and consult your local "
+"physician if symptoms get worse or remain for more than a few days.\n"
+"                    "
+msgstr ""
+"まだ心配する必要はありませんが、これらのアクションを検討できるかもしれません.公共の場所での喫煙を避け、経験した可能性のある症状をメモしておく、また、症状が悪化したり、数日以上続く場合は、"
+" かかりつけの医師に相談してください。\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:278
+msgid ""
+"There is a possibility that you have pneumonic lungs. It's best to avoid "
+"smoking and going to public places. Remember to keep track of any "
+"symptoms you might have experienced and consult your local physician if "
+"symptoms get worse or remain for more than a few days.\n"
+"                    "
+msgstr ""
+"あなたの肺が肺炎に感染する可能性があります。 喫煙や公共の場所への外出は避ける のが最善です。 "
+"経験した可能性のある症状をメモしておく、症状が悪化したり、数日以上続く場合は、 地元の医師に相談することを忘れないでください.\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:282
+msgid ""
+"Since we think that you probably have pneumonic lungs, it's best for you "
+"to avoid public places and get enough rest. Remember to visit your local "
+"physician immediately.\n"
+"                    "
+msgstr ""
+"あなたの肺が肺炎に感染する可能性が高いと思われますので、 公共の場所を避け、 "
+"十分な休息をとってください。すぐに地元の医師に相談することを忘れないでください。\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:286
+msgid ""
+"You are extremely likely to have pneumonic lungs, we encourage you to "
+"drink more warm beverages, avoid public places, and consider going to a "
+"hospital for treatment.\n"
+"                    "
+msgstr ""
+"あなたの肺が肺炎に感染する可能性が非常に高いなので、 "
+"温かい飲み物を飲むこと公共の場所を避けること、治療のために病院に行くことを検討することをお勧めします。\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:301
+msgid "Want to re-diagnose?"
+msgstr "再診断しますか？"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:305
+msgid ""
+"ParuParuKu will help predict your \n"
+"                pneumonia diagnosis result based on your X-ray scan!"
+msgstr ""
+"ParuParuKuは、 \n"
+"                    X 線スキャンに基づいて肺炎の診断結果を予測するのに役立ちます!"
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:1
+#: app/blueprints/multilingual/templates/multilingual/sources.html:19
+msgid "Sources"
+msgstr "情報源"
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:22
+msgid ""
+" We collected various sources from the Internet to provide you with "
+"advices based on your prediction result."
+msgstr ""
+"\n"
+"                        インターネットからさまざまな情報源を収集し、 あなたの予測結果に基づいて\n"
+"                        アドバイスを提供します。\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:30
+msgid "Links"
+msgstr "リンク"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:1
+msgid "Wrong File Extension"
+msgstr "間違ったファイル拡張子"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:19
+msgid "Wrong File Extension!"
+msgstr "間違ったファイル拡張子！"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:23
+msgid ""
+"We cannot process your request as we don't think this is the correct file"
+" extension. \n"
+"                    <br /><br />\n"
+"                    Please upload an x-ray image with a .jpg, .jpeg, or "
+".png extension!"
+msgstr ""
+"これは正しいファイル拡張子ではないと思われるため、 リクエストを処理できません。\n"
+"                    <br /><br />\n"
+"                   拡張子が .jpg、.jpeg、または .png の X 線画像をアップロードしてください"
+
+#: app/templates/layout.html:123
+msgid "🇺🇸 EN"
+msgstr "🇯🇵 JP"
+
+#: app/templates/layout.html:218
+msgid "Back to top"
+msgstr "トップに戻る"
+
+#: app/templates/layout.html:227
+msgid ""
+"\n"
+"                    <strong class=\"fw-semibold\">Disclaimer: </strong>\n"
+"                    This website only generates predictions based on\n"
+"                    <a target=\"_blank\" href=\"https://kaggle.com\"\n"
+"                        >Kaggle Dataset</a\n"
+"                    >\n"
+"                    using three transfer learning models in\n"
+"                    <a target=\"_blank\" "
+"href=\"https://keras.io/api/applications/\"\n"
+"                        >Keras</a\n"
+"                    >\n"
+"                    and should not be used to substitute medical "
+"professionals\n"
+"                    in diagnosing pneumonia. Any advice given by this "
+"website is\n"
+"                    collected from <a href=\"/en/sources\">various "
+"sources</a> and\n"
+"                    should not be treated as medical advice given by "
+"medical\n"
+"                    professionals. The developers of this website are not"
+"\n"
+"                    responsible for the damages caused by the results "
+"generated\n"
+"                    by this website."
+msgstr ""
+"\n"
+"                    <strong class=\"fw-semibold\">免責事項: </strong>\n"
+"                    この ウェブサイトは、\n"
+"                    <a "
+"href=\"https://keras.io/api/applications/\">Keras</a> の3つ\n"
+"                    の転移学習モデルを使用した\n"
+"                    <a href=\"https://kaggle.com\">Kaggle</a>データセット\n"
+"                    に基づいて予測を生成するだけであり、肺炎の診断において 医療従事者の\n"
+"                    代わりとして使用するべきではありません。 このウェブサイトで提供されるアドバイスは、さまざまな<a "
+"href=\"/ja/情報源\">情報源</a>から\n"
+"                   収集されたものであり、                   "
+"医療従事者による医学的アドバイスとして扱われるべきではありません。 このウェブサイトの開発者は\n"
+"                    このウェブサイトによって生成された結果によって\n"
+"                    引き起こされた損害について\n"
+"責任を負いません。"
+
+#: app/templates/layout.html:261
+msgid "Uploading image..."
+msgstr "写真をアップロード中..."
+
+#: app/templates/layout.html:267
+msgid "Did you know?"
+msgstr "知っていますか？"
+
+#: app/templates/layout.html:293
+msgid ""
+"Medical experts have discovered more than 30 causes of pneumonia, such as"
+" bacteria, fungi, dust, and more!"
+msgstr "医療専門家は、細菌、真菌、ほこりなど、肺炎の 30 以上の原因を発見しました。"
+
+#: app/templates/layout.html:294
+msgid ""
+"The COVID-19 virus is able to cause a special type of pneumonia where it "
+"uses our own immune systems to spread, making it last longer and causing "
+"damage in more places in our body."
+msgstr ""
+"COVID-19 "
+"ウイルスは、私たち自身の免疫系を使って拡散する特殊な肺炎を引き起こす可能性があます。それを長引かせ、体のより多くのところに損傷を与えます。"
+
+#: app/templates/layout.html:295
+msgid ""
+"Just like COVID-19, washing our hands with soap also reduces the risk of "
+"getting pneumonia disease."
+msgstr "COVID-19 と同じように、石けんで手を洗うことも肺炎のリスクを減らします。"
+
+#: app/templates/layout.html:296
+msgid ""
+"The sooner a child gets the vaccine, the less likely for them to be "
+"infected by pneumonia."
+msgstr "子供が早ければ早いほどワクチンを接種すれば、肺炎に感染する可能性は低くなります。"
+
+#: app/templates/layout.html:297
+msgid ""
+"Drinking warm beverages, such as warm water or tea helps loosen the mucus"
+" in your lungs when you are infected with pneumonia."
+msgstr "肺炎に感染している場合、温かい水やお茶などの温かい飲み物を飲むと、肺の粘液が緩みます。"
+
+#~ msgid ""
+#~ " We are four college students called\n"
+#~ "                    <strong class=\"fw-"
+#~ "semibold\">\"Team Pengacara\"</strong> from\n"
+#~ "                    class 5PSIA of\n"
+#~ "                    <a target=\"_blank\" "
+#~ "href=\"https://www.uib.ac.id/\"\n"
+#~ "                        >Universitas Internasional Batam</a\n"
+#~ "                    >. <br /><br />\n"
+#~ "                    ParuParuKu is one of "
+#~ "our projects for the Artificial\n"
+#~ "                    Intelligence course and is"
+#~ " built by our amazing team. "
+#~ msgstr ""
+#~ " 私たちは<a href=\"https://www.uib.ac.id/\">Universitas "
+#~ "Internasional Batam</a><br/><br/>大学の5PSIA組の\n"
+#~ " <strong class=\"fw-semibold\">\"Team "
+#~ "Pengacara\"</strong>という4人の大学生です。\n"
+#~ "ParuParuKuは、人工知能コースのプロジェクトの 1 つであり、\n"
+

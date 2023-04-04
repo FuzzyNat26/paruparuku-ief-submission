@@ -1,0 +1,138 @@
+{% extends "layout.html" %} {% block title %}{{ gettext('ParuParuKu') | safe}}{% endblock %} 
+
+{% block content%}
+<section id="hero">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/index-doctor-1.png"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="An illustration containing two doctors"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-6 fw-bold mb-3">
+                    {{ gettext('We are here to help with your concerns!') | safe
+                    }}
+                </h1>
+                <p class="lead">
+                    {{ gettext('ParuParuKu will help predict how likely
+                    you are to be infected with pneumonia based on your X-ray
+                    scan!') | safe }}
+                </p>
+                <form
+                    autocomplete="off"
+                    method="POST"
+                    action="{{ url_for('multilingual.detection') }}"
+                    enctype="multipart/form-data"
+                >
+                    <div class="input-group mb-3">
+                        <input
+                            type="file"
+                            accept="image/png, image/jpeg, image/jpg"
+                            name="user_image_input"
+                            class="form-control"
+                            id="user_image_input"
+                            required`
+                        />
+                        <button
+                            type="submit"
+                            class="input-group-text btn btn-primary"
+                            onclick="toggleUploadLoader()"
+                        >
+                            {{ gettext('Submit') | safe }}
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="seputar-pneumonia" class="bg-even">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/index-phone-1.jpg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="A hand holding and clicking a phone"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext('Photo by
+                    <a target="_blank"
+                        href="https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                        >NordWood Themes</a
+                    >
+                    on
+                    <a target="_blank"
+                        href="https://unsplash.com/s/photos/nordwood-themes-phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                        >Unsplash</a
+                    >
+                    ') | safe }}
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold mb-3">
+                    {{ gettext('A photo is all you need!') | safe }}
+                </h1>
+                <p class="lead">
+                    {{ gettext('We immediately predict your pneumonia diagnosis
+                    result using our 3 types of machine learning models.') |
+                    safe }}
+                </p>
+                <ol class="lead">
+                    <li>DenseNet201</li>
+                    <li>MobileNetV2</li>
+                    <li>NASNetMobile</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="urgensi-pneumonia">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/index-doctor-2.jpg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="Doctor with heart shaped stethoscope"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext('Photo by
+                    <a target="_blank"
+                        href="https://unsplash.com/@pattybphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                        >Patty Brito</a
+                    >
+                    on
+                    <a target="_blank"
+                        href="https://unsplash.com/s/photos/doctor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                        >Unsplash</a
+                    >
+                    ') | safe }}
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold mb-3">
+                    {{ gettext('Don\'t know what to do next?') | safe }}
+                </h1>
+                <p class="lead">
+                    {{ gettext('We can give research-based recommendations
+                    depending on your diagnosis results.') | safe }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock%}

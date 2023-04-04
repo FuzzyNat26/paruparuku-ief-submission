@@ -1,0 +1,106 @@
+{% extends "layout.html" %} {% block title %}{{ gettext('Sources') | safe}}{%
+endblock %} {% block content%}
+
+<section id="hero">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/sources-search-1.png"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="An illustration that resembles search"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-6 fw-bold mb-3">
+                    {{ gettext('Sources') | safe}}
+                </h1>
+                <p class="lead">
+                    {{ gettext(' We collected various sources from the Internet to provide you with advices based on your prediction result.') | safe}}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="sources-list">
+    <div class="container col-xxl-8 mb-4 px-4">
+        <h1 class="display-6 fw-bold mb-3">{{ gettext('Links') | safe}}</h1>
+        <div class="row px-4 lead">
+            <ul>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://www.mayoclinic.org/diseases-conditions/pneumonia/diagnosis-treatment/drc-20354210"
+                        >Pneumonia Diagnosis Treatment | Mayo Clinic (2020)</a
+                    >
+                </li>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://www.unicef.org/indonesia/id/stories/6-fakta-pneumonia"
+                        >Kenali 6 Fakta tentang Pneumonia pada Anak | UNICEF (2020)</a
+                    >
+                </li>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://www.healthline.com/health/how-to-prevent-pneumonia#wash-your-hands
+                        "
+                        >5 Tips for Preventing Pneumonia | Healthline (2021)</a
+                    >
+                </li>
+                <li>
+                    <a
+                    target="_blank"
+                    href="https://www.healthgrades.com/right-care/lungs-breathing-and-respiration/6-surprising-facts-about-pneumonia
+                    "
+                    >6 Surprising Facts About Pneumonia | HealthGrades
+                    (2021)</a
+                    >
+                </li>
+                <li>
+                    <a
+                    target="_blank"
+                    href="https://www.healthline.com/health/home-remedies-for-pneumonia#outlook"
+                    >12 Home Remedies for Pneumonia Symptoms | Healthline
+                    (2021)</a
+                    >
+                </li>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://my.clevelandclinic.org/health/diseases/24002-covid-pneumonia
+                        "
+                        >COVID Pneumonia | Cleveland Clinic (2022)</a
+                    >
+                </li>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://www.lung.org/lung-health-diseases/lung-disease-lookup/pneumonia/treatment-and-recovery"
+                        >Pneumonia Treatment and Recovery | American Lung Association (2022)</a
+                    >
+                </li>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://www.webmd.com/lung/ss/slideshow-pneumonia-home-treatment"
+                        >Home Remedies for Pneumonia | WebMD (2022)</a
+                    >
+                </li>
+                <li>
+                    <a
+                        target="_blank"
+                        href="https://sehatnegeriku.kemkes.go.id/baca/umum/20220912/4941060/pemerintah-berikan-imunisasi-pcv-bagi-seluruh-anak-indonesia-untuk-melindungi-dari-bahaya-radang-paru-pneumonia/#:~:text=Pemberian%20vaksinasi%20PCV%20ini%20sangat,seluruh%20Indonesia%2C%E2%80%9D%20kata%20Menkes"
+                        >Pemerintah Berikan Imunisasi PCV bagi Seluruh Anak Indonesia Untuk Melindungi dari Bahaya Radang Paru (Pneumonia) | Sehat NegeriKu (2022)</a
+                    >
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

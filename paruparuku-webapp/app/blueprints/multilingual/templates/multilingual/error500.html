@@ -1,0 +1,40 @@
+{% extends "layout.html" %} {% block title %}{{ gettext('Internal Server Error') | safe}}{% endblock %}
+{% block content%}
+
+
+    <section id="hero">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                    <img
+                        src="/static/assets/500.svg"
+                        class="d-block mx-lg-auto img-fluid hero-img"
+                        alt="Link between server and computer was disconnected by a mini character."
+                        width="700"
+                        height="500"
+                        loading="lazy"
+                    />
+                </div>
+                <div class="col-lg-6">
+                    <h1 class="display-6 fw-bold mb-3">
+                        {{ gettext('Internal Server Error') | safe}}
+                    </h1>
+                    <p class="lead">
+                        {{ gettext('Oops! Something went wrong.
+                        <br />
+                        This may be caused by server errors or misconfigurations and was unable to complete your request
+                        <br /><br />
+                        Try to refresh the page and feel free to
+                        <a target="_blank" href="mailto:2031016.jonathan@uib.edu">contact us</a>
+                        if the problem persists.') | safe}}
+                    </p>
+                    <a href="/" type="button" class="btn btn-primary">
+                        {{ gettext('Return to Main Page') | safe}}
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}

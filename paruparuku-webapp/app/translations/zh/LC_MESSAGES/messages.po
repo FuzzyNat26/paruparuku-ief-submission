@@ -1,0 +1,705 @@
+# Chinese translations for PROJECT.
+# Copyright (C) 2022 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2022.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-04-02 20:04+0700\n"
+"PO-Revision-Date: 2022-11-19 13:57+0700\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: zh\n"
+"Language-Team: zh <LL@li.org>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.11.0\n"
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:1
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:19
+#: app/templates/layout.html:105 app/templates/layout.html:111
+msgid "About Us"
+msgstr "關於我們"
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:22
+msgid ""
+" We are four college students called\n"
+"                    <strong class=\"fw-semibold\">\"Team "
+"Pengacara\"</strong> from\n"
+"                    <a target=\"_blank\" href=\"https://www.uib.ac.id/\"\n"
+"                        >Universitas Internasional Batam</a\n"
+"                    >. <br /><br />\n"
+"                    ParuParuKu is a Flask-based web application that was "
+"built\n"
+"                    by our amazing team for detecting pneumonia from "
+"patient's\n"
+"                    X-ray image."
+msgstr ""
+"我們是來自"
+"                    <a target=\"_blank\" href=\"https://www.uib.ac.id/\"\n"
+"                        >Universitas Internasional Batam</a\n"
+"                    > 的四名大學生，稱為\n"
+"                    <strong class=\"fw-semibold\">「Team Pengacara」"
+"</strong>。<br /><br />\n"
+"ParuParuKu 是一個基於 Flask 的網絡應用程序，由我們出色的團隊構建，用於從患者的 X 射線圖像中檢測肺炎。"
+
+
+#: app/blueprints/multilingual/templates/multilingual/about-us.html:38
+msgid "Team Member"
+msgstr "隊員"
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:1
+#: app/blueprints/multilingual/templates/multilingual/error500.html:20
+msgid "Internal Server Error"
+msgstr "內部服務器錯誤"
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:23
+msgid ""
+"Oops! Something went wrong.\n"
+"                        <br />\n"
+"                        This may be caused by server errors or "
+"misconfigurations and was unable to complete your request\n"
+"                        <br /><br />\n"
+"                        Try to refresh the page and feel free to\n"
+"                        <a target=\"_blank\" "
+"href=\"mailto:2031016.jonathan@uib.edu\">contact us</a>\n"
+"                        if the problem persists."
+msgstr ""
+"哎呀！ 出問題了。這可能是由於服務器錯誤或上傳了無效的文件擴展名造成的！<br /><br />嘗試刷新頁面，如果問題仍然存在，請隨時與<a "
+"target=\"_blank\" href=\"mailto:2031016.jonathan@uib.edu\">我們聯繫</a>。"
+
+#: app/blueprints/multilingual/templates/multilingual/error500.html:32
+msgid "Return to Main Page"
+msgstr "返回主頁"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:1
+msgid "ParuParuKu"
+msgstr "ParuParuKu"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:19
+msgid "We are here to help with your concerns!"
+msgstr "我們在這裡將幫助您所關心的！"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:23
+msgid ""
+"ParuParuKu will help predict how likely\n"
+"                    you are to be infected with pneumonia based on your "
+"X-ray\n"
+"                    scan!"
+msgstr "ParuParuKu將根據您的X光掃描幫助預測您的肺炎概率！"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:47
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:47
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:132
+#: app/blueprints/multilingual/templates/multilingual/result.html:328
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:47
+msgid "Submit"
+msgstr "提交"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:68
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >NordWood Themes</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://unsplash.com/s/photos/nordwood-"
+"themes-"
+"phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@nordwood?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >NordWood Themes</a\n"
+"                    >\n"
+"                    在\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://unsplash.com/s/photos/nordwood-"
+"themes-"
+"phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        > Unsplash</a\n"
+"                    > 上上傳的照片\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:83
+msgid "A photo is all you need!"
+msgstr "一張照片就是你所需要的！"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:86
+msgid ""
+"We immediately predict your pneumonia diagnosis\n"
+"                    result using our 3 types of machine learning models."
+msgstr "我們使用我們的 3 種機器學習模型立即預測您的肺炎診斷結果。"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:112
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@pattybphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Patty Brito</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/s/photos/doctor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@pattybphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Patty Brito</a\n"
+"                    >\n"
+"                    在\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/s/photos/doctor?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        > Unsplash</a\n"
+"                    > 上上傳的照片\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:127
+msgid "Don't know what to do next?"
+msgstr "不知道下一步該怎麼做？"
+
+#: app/blueprints/multilingual/templates/multilingual/index.html:130
+msgid ""
+"We can give research-based recommendations\n"
+"                    depending on your diagnosis results."
+msgstr "我們可以根據您的診斷結果給出基於研究的建議。"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:1
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:19
+msgid "Not an X-ray Image"
+msgstr "不是X光照片"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:23
+msgid ""
+"We don't think your uploaded image is an X-ray image. Uploading images "
+"that have unusual angles or colors may cause this issue.\n"
+"                    <br /><br />\n"
+"                    Please refer to the example below and upload it again"
+" in the form below!"
+msgstr ""
+"我們認為您上傳的圖片不是X光照片。上傳具有異常角度或顏色的圖像可能會導致此這個問題。<br /><br />\n"
+"請參考下面的例子，在下面的表格中重新上傳！"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:70
+msgid "What should you upload?"
+msgstr "你應該上傳什麼呢？"
+
+#: app/blueprints/multilingual/templates/multilingual/not-x-ray-image.html:73
+msgid ""
+"ParuParuKu only detects specific kinds of images, so it is best that you "
+"upload your images that are similar to this image.\n"
+"                    <br /><br />\n"
+"                    We recommend that you scan your images first, then "
+"convert it to a supported file extension such as .jpg .jpeg or .png.\n"
+"                    "
+msgstr ""
+"ParuParuKu僅檢測特定類型的圖像，因此建議您上傳與此圖像相似的圖像。<br /><br />\n"
+"我們建議您先掃描圖像，然後將其轉換為圖像擴展名，例如 .jpg .jpeg 或 .png。"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:1
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:7
+#: app/templates/layout.html:87 app/templates/layout.html:94
+msgid "Our Objectives"
+msgstr "我們的目標"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:11
+msgid ""
+"is to provide users with\n"
+"                <strong class=\"fw-semibold\">early detection</strong>\n"
+"                of pneumonia based on X-ray images!"
+msgstr "我們的目標是為用戶提供基於X光圖像的肺炎<strong class=\"fw-semibold\">早期檢測</strong>！"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:31
+msgid ""
+" Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >dr. Irene Cindy Sunur</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >Alodokter</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        >dr. Irene Cindy Sunur</a\n"
+"                    >\n"
+"                    在\n"
+"                    <a target=\"_blank\"\n"
+"                        href=\"https://www.alodokter.com/mengenal-macam-"
+"macam-pneumonia\"\n"
+"                        > Alodokter</a\n"
+"                    > 上上傳的照片\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:46
+msgid "About pneumonia"
+msgstr "關於肺炎"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:49
+msgid ""
+"Pneumonia is an inflammation of the tissue in\n"
+"                    lungs caused by infection. Pneumonia can cause mild "
+"to\n"
+"                    severe symptoms, such as coughing, fever, nausea, "
+"wheezing,\n"
+"                    shortness of breath, and chest pain.<br /><br />\n"
+"                    Pneumonia is not only found in adults but also in\n"
+"                    children."
+msgstr ""
+"肺炎是由感染引起的肺部組織炎症。 肺炎可引起輕微至嚴重的症狀，如咳嗽、發燒、反胃、喘息、呼吸急促和胸痛。<br /><br />\n"
+"肺炎不僅見於成人，也見於兒童。"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:73
+msgid ""
+"Photo by\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Walter Otto</a\n"
+"                    >\n"
+"                    on\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Unsplash</a\n"
+"                    >\n"
+"                    "
+msgstr ""
+"\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        >Walter Otto</a\n"
+"                    >\n"
+"                    在\n"
+"                    <a target=\"_blank\"\n"
+"                        "
+"href=\"https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\""
+"\n"
+"                        > Unsplash</a\n"
+"                    > 上上傳的照片\n"
+"                    "
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:88
+msgid "Why should you use this ParuParuKu?"
+msgstr "你為什麼要使用ParuParuKu？"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:91
+msgid ""
+"There are times when doctors aren't available to\n"
+"                    make a diagnosis on recently performed X-ray scans.\n"
+"                    <br /><br />So early diagnosis is needed to take "
+"further\n"
+"                    action."
+msgstr ""
+"有時患者會得到掃描或X光檢查結果，但沒有醫生可以做出診斷。<br /><br />\n"
+"因此需要早期診斷以採取進一步行動。"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:105
+msgid "Which is why, we are ready to help!"
+msgstr "這就是我們準備提供幫助的原因！"
+
+#: app/blueprints/multilingual/templates/multilingual/our-objectives.html:109
+msgid ""
+"ParuParuKu will help predict your pneumonia\n"
+"                diagnosis result based on your X-ray scan."
+msgstr "ParuParuKu將根據您的X光掃描幫助預測您的肺炎診斷結果。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:1
+#: app/blueprints/multilingual/templates/multilingual/result.html:26
+msgid "Diagnosis Report"
+msgstr "診斷報告"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:31
+msgid ""
+"It is <strong class=\"fw-bold\">very unlikely</strong> that you have "
+"pneumonia"
+msgstr "您患肺炎的<strong class=\"fw-bold\">可能性很小</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:34
+msgid "It is <strong class=\"fw-bold\">unlikely</strong> that you have pneumonia"
+msgstr "你患肺炎的<strong class=\"fw-bold\">可能性不大</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:37
+msgid "It is <strong class=\"fw-bold\">likely</strong> that you have pneumonia"
+msgstr "你很<strong class=\"fw-bold\">可能得了肺炎</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:40
+msgid ""
+"It is <strong class=\"fw-bold\">highly likely</strong> that you have "
+"pneumonia"
+msgstr "你患肺炎的<strong class=\"fw-bold\">可能性很大</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:43
+msgid ""
+"It is <strong class=\"fw-bold\">extremely likely</strong> that you have "
+"pneumonia"
+msgstr "你<strong class=\"fw-bold\">極有可能得了肺炎</strong>"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:100
+msgid "Based on predictions"
+msgstr "基於預測"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:102
+msgid "Your lungs have a"
+msgstr "您的肺部有"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:106
+msgid ""
+"probability of being infected by pneumonia. For a detailed predictions, "
+"please refer to the table below."
+msgstr "的概率感染肺炎。詳細預測請參考下表。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:112
+msgid "Model Type"
+msgstr "模型類型"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:113
+msgid "Normal"
+msgstr "正常肺"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:114
+msgid "Pneumonia"
+msgstr "肺炎肺"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:152
+msgid "Average"
+msgstr "平均"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:181
+msgid ""
+"\n"
+"                        Photo by <a target=\"_blank\" "
+"href=\"https://unsplash.com/es/@jareddrice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Jared"
+" Rice</a> on <a target=\"_blank\" "
+"href=\"https://unsplash.com/s/photos/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+"\n"
+"                    "
+msgstr ""
+"\n"
+"                            <a target=\"_blank\" "
+"href=\"https://unsplash.com/es/@jareddrice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Jared"
+" Rice</a> 在 <a target=\"_blank\" "
+"href=\"https://unsplash.com/s/photos/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">"
+" Unsplash</a> 上上傳的照片\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:197
+msgid ""
+"\n"
+"                        Photo by <a target=\"_blank\" "
+"href=\"https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Markus"
+" Spiske</a> on <a target=\"_blank\" href=\"https://unsplash.com/s/photos"
+"/caution-"
+"hand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Unsplash</a>"
+"\n"
+"                    "
+msgstr ""
+"\n"
+"                            <a target=\"_blank\" "
+"href=\"https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">Markus"
+" Spiske</a> 在 <a target=\"_blank\" href=\"https://unsplash.com/s/photos"
+"/caution-"
+"hand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText\">"
+" Unsplash</a> 上上傳的照片\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:212
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/serious-thoughtful-man-making-"
+"assumption-looking-right-"
+"thinking_9902339.htm#query=thinking&position=3&from_view=search&track=sph\">Image"
+" by cookie_studio</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"圖片由<a target=\"_blank\" href=\"https://www.freepik.com/free-photo"
+"/serious-thoughtful-man-making-assumption-looking-right-"
+"thinking_9902339.htm#query=thinking&position=3&from_view=search&track=sph\">cookie_studio</a>在Freepik上提供"
+"\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:227
+#, python-format
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/physician-consulting-his-"
+"patient-"
+"clinic_6190327.htm#query=health%%20consultation&position=0&from_view=search&track=sph\">Image"
+" by senivpetro</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"圖片由<a target=\"_blank\" href=\"https://www.freepik.com/free-photo"
+"/physician-consulting-his-patient-"
+"clinic_6190327.htm#query=health%%20consultation&position=0&from_view=search&track=sph\">senivpetro</a>在Freepik上提供"
+"\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:242
+#, python-format
+msgid ""
+"\n"
+"                        <a target=\"_blank\" "
+"href=\"https://www.freepik.com/free-photo/young-asia-female-doctor-white-"
+"medical-uniform-using-clipboard-is-delivering-great-news-talk-discuss-"
+"results_15114515.htm#query=health%%20consultation&position=19&from_view=search&track=sph\">Image"
+" by tirachardz</a> on Freepik\n"
+"                    "
+msgstr ""
+"\n"
+"圖片由<a target=\"_blank\" href=\"https://www.freepik.com/free-photo/young-"
+"asia-female-doctor-white-medical-uniform-using-clipboard-is-delivering-"
+"great-news-talk-discuss-"
+"results_15114515.htm#query=health%%20consultation&position=19&from_view=search&track=sph\">tirachardz</a>在Freepik上提供"
+"\n"
+"                        "
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:252
+msgid "There's no need to worry!"
+msgstr "你不用擔心！"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:255
+msgid "Caution is advised!"
+msgstr "建議謹慎！"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:258
+msgid "Consider consulting with your physician!"
+msgstr "考慮諮詢您的醫生！"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:261
+msgid "Visit your physician immediately!"
+msgstr "立即去看醫生！"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:264
+msgid "Immediately visit your local hospital!"
+msgstr "立即到當地醫院就診！"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:270
+msgid ""
+"Your lungs are healthy, but that doesn't mean that you don't have to stay"
+" healthy! Remember to stay hydrated, get enough sleep, and exercise "
+"frequently.\n"
+"                    "
+msgstr "你的肺是健康的，但這並不意味著你不必保持健康！ 記住要保持水分，充足的睡眠和經常鍛煉。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:274
+msgid ""
+"There's no reason to worry yet, but maybe you can consider these actions!"
+" It's best to avoid smoking and going to public places. Remember to keep "
+"track of any symptoms you might have experienced and consult your local "
+"physician if symptoms get worse or remain for more than a few days.\n"
+"                    "
+msgstr ""
+"還沒有理由擔心，但也許你可以考慮這些行動！ 最好避免吸煙和去公共場所。 "
+"請記住跟踪您可能經歷過的任何症狀，如果症狀惡化或持續超過幾天，請諮詢當地醫生。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:278
+msgid ""
+"There is a possibility that you have pneumonic lungs. It's best to avoid "
+"smoking and going to public places. Remember to keep track of any "
+"symptoms you might have experienced and consult your local physician if "
+"symptoms get worse or remain for more than a few days.\n"
+"                    "
+msgstr "您可能患有肺炎。 最好避免吸煙和去公共場所。 請記住跟踪您可能經歷過的任何症狀，如果症狀惡化或持續超過幾天，請諮詢當地醫生。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:282
+msgid ""
+"Since we think that you probably have pneumonic lungs, it's best for you "
+"to avoid public places and get enough rest. Remember to visit your local "
+"physician immediately.\n"
+"                    "
+msgstr "由於我們認為您可能患有肺炎，因此您最好避免去公共場所並充分休息。 記得立即去看當地的醫生。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:286
+msgid ""
+"You are extremely likely to have pneumonic lungs, we encourage you to "
+"drink more warm beverages, avoid public places, and consider going to a "
+"hospital for treatment.\n"
+"                    "
+msgstr "您極有可能患有肺氣腫，我們建議您多喝溫熱的飲料，避免去公共場所，並考慮去醫院就診。"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:301
+msgid "Want to re-diagnose?"
+msgstr "想重新診斷？"
+
+#: app/blueprints/multilingual/templates/multilingual/result.html:305
+msgid ""
+"ParuParuKu will help predict your \n"
+"                pneumonia diagnosis result based on your X-ray scan!"
+msgstr "ParuParuKu將根據您的X光掃描幫助預測您的肺炎概率！"
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:1
+#: app/blueprints/multilingual/templates/multilingual/sources.html:19
+msgid "Sources"
+msgstr "來源"
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:22
+msgid ""
+" We collected various sources from the Internet to provide you with "
+"advices based on your prediction result."
+msgstr "我們從互聯網上收集了各種資源，根據您的預測結果為您提供建議。"
+
+#: app/blueprints/multilingual/templates/multilingual/sources.html:30
+msgid "Links"
+msgstr "網站鏈接"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:1
+msgid "Wrong File Extension"
+msgstr "錯誤的文件擴展名"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:19
+msgid "Wrong File Extension!"
+msgstr "錯誤的文件擴展名！"
+
+#: app/blueprints/multilingual/templates/multilingual/wrong-extension.html:23
+msgid ""
+"We cannot process your request as we don't think this is the correct file"
+" extension. \n"
+"                    <br /><br />\n"
+"                    Please upload an x-ray image with a .jpg, .jpeg, or "
+".png extension!"
+msgstr ""
+"我們無法處理您的請求，因為我們認為這不是正確的文件擴展名。\n"
+"<br /><br />\n"
+"請上傳擴展名為 .jpg、.jpeg 或 .png 的X光圖像！"
+
+#: app/templates/layout.html:123
+msgid "🇺🇸 EN"
+msgstr "🇨🇳 CN"
+
+#: app/templates/layout.html:218
+msgid "Back to top"
+msgstr "回到頂部"
+
+#: app/templates/layout.html:227
+msgid ""
+"\n"
+"                    <strong class=\"fw-semibold\">Disclaimer: </strong>\n"
+"                    This website only generates predictions based on\n"
+"                    <a target=\"_blank\" href=\"https://kaggle.com\"\n"
+"                        >Kaggle Dataset</a\n"
+"                    >\n"
+"                    using three transfer learning models in\n"
+"                    <a target=\"_blank\" "
+"href=\"https://keras.io/api/applications/\"\n"
+"                        >Keras</a\n"
+"                    >\n"
+"                    and should not be used to substitute medical "
+"professionals\n"
+"                    in diagnosing pneumonia. Any advice given by this "
+"website is\n"
+"                    collected from <a href=\"/en/sources\">various "
+"sources</a> and\n"
+"                    should not be treated as medical advice given by "
+"medical\n"
+"                    professionals. The developers of this website are not"
+"\n"
+"                    responsible for the damages caused by the results "
+"generated\n"
+"                    by this website."
+msgstr ""
+"免責聲明：本網站僅使用 <a target=\"_blank\" "
+"href=\"https://keras.io/api/applications/\">Keras</a> 中的三個遷移學習模型基於 <a "
+"target=\"_blank\" href=\"https://kaggle.com\">Kaggle Dataset</a> "
+"生成預測，不應用於替代醫療專業人員診斷肺炎。 本網站提供的任何建議都是從<a "
+"href=\"/zh/來源\">各種來源</a>收集的，不應被視為醫療專業人員提供的醫療建議。 "
+"本網站的開發者不對因本網站產生的結果造成的損失負責。"
+
+#: app/templates/layout.html:261
+msgid "Uploading image..."
+msgstr "正在上傳圖片..."
+
+#: app/templates/layout.html:267
+msgid "Did you know?"
+msgstr "你知道嗎？"
+
+#: app/templates/layout.html:293
+msgid ""
+"Medical experts have discovered more than 30 causes of pneumonia, such as"
+" bacteria, fungi, dust, and more!"
+msgstr "醫學專家已經發現了30多種引起肺炎的原因，例如細菌、真菌、灰塵等等！"
+
+#: app/templates/layout.html:294
+msgid ""
+"The COVID-19 virus is able to cause a special type of pneumonia where it "
+"uses our own immune systems to spread, making it last longer and causing "
+"damage in more places in our body."
+msgstr "COVID-19 病毒能夠引起一種特殊類型的肺炎，它利用我們自身的免疫系統傳播，使其持續時間更長，並在我們身體的更多部位造成損害。"
+
+#: app/templates/layout.html:295
+msgid ""
+"Just like COVID-19, washing our hands with soap also reduces the risk of "
+"getting pneumonia disease."
+msgstr "就像 COVID-19 一樣，用肥皂洗手也可以降低患肺炎的風險。"
+
+#: app/templates/layout.html:296
+msgid ""
+"The sooner a child gets the vaccine, the less likely for them to be "
+"infected by pneumonia."
+msgstr "孩子越早接種疫苗，他們感染肺炎的可能性就越小。"
+
+#: app/templates/layout.html:297
+msgid ""
+"Drinking warm beverages, such as warm water or tea helps loosen the mucus"
+" in your lungs when you are infected with pneumonia."
+msgstr "當您感染肺炎時，喝溫熱的飲料，如溫水或茶，有助於疏鬆肺部的粘液。"
+
+#~ msgid ""
+#~ " We are four college students called\n"
+#~ "                    <strong class=\"fw-"
+#~ "semibold\">\"Team Pengacara\"</strong> from\n"
+#~ "                    class 5PSIA of\n"
+#~ "                    <a target=\"_blank\" "
+#~ "href=\"https://www.uib.ac.id/\"\n"
+#~ "                        >Universitas Internasional Batam</a\n"
+#~ "                    >. <br /><br />\n"
+#~ "                    ParuParuKu is one of "
+#~ "our projects for the Artificial\n"
+#~ "                    Intelligence course and is"
+#~ " built by our amazing team. "
+#~ msgstr ""
+#~ "我們是5PSIA的<strong class=\"fw-semibold\">\"Team "
+#~ "Pengacara\"</strong>，由來自<a target=\"_blank\" "
+#~ "href=\"https://www.uib.ac.id/\">Universitas Internasional "
+#~ "Batam</a>的四名大學生組成。 <br /><br "
+#~ "/>ParuParuKu是我們人工智能課程的項目之一，由我們出色的團隊構建。"
+

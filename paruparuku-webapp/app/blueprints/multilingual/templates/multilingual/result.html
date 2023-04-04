@@ -1,0 +1,335 @@
+{% extends "layout.html" %} {% block title %}{{ gettext('Diagnosis Report') | safe}}{% endblock %} {%
+block content%}
+<section>
+    {% if(0 <= prediction_results[0] and
+        prediction_results[0] < 10) %} 
+    <div class="diag-bg bg-1 min-vh-50">
+    {%
+        elif(10 <= prediction_results[0] and
+        prediction_results[0]) < 40 %} 
+    <div class="diag-bg bg-2 min-vh-50">
+    {%
+        elif(40 <= prediction_results[0] and
+        prediction_results[0]) < 60 %} 
+    <div class="diag-bg bg-3 min-vh-50">
+    {%
+        elif(60 <= prediction_results[0] and
+        prediction_results[0]) < 90 %} 
+    <div class="diag-bg bg-4 min-vh-50">
+    {%
+        elif(90 <= prediction_results[0] and
+        prediction_results[0]) <= 100 %} 
+    <div class="diag-bg bg-5 min-vh-50">
+    {% endif %}
+        <div class="container px-4 py-5 text-start d-flex-col">
+            <h1 class="display-6 fw-bold text-lg-center">
+                {{ gettext('Diagnosis Report') | safe}}
+            </h1>
+            <div class="col-lg-6 mx-auto text-lg-center">
+                <p class="lead text-lg-center">                
+                    {% if(0 <= prediction_results[0] and prediction_results[0] < 10) %}
+                    {{ gettext('It is <strong class="fw-bold">very unlikely</strong> that you have pneumonia') | safe}}
+
+                    {% elif(10 <= prediction_results[0] and prediction_results[0] < 40) %}
+                    {{ gettext('It is <strong class="fw-bold">unlikely</strong> that you have pneumonia') | safe}}
+
+                    {% elif(40 <= prediction_results[0] and prediction_results[0] < 60) %}
+                    {{ gettext('It is <strong class="fw-bold">likely</strong> that you have pneumonia') | safe}}
+
+                    {% elif(60 <= prediction_results[0] and prediction_results[0] < 90) %}
+                    {{ gettext('It is <strong class="fw-bold">highly likely</strong> that you have pneumonia') | safe}}
+                    
+                    {% elif(90 <= prediction_results[0] and prediction_results[0] <= 100) %}
+                    {{ gettext('It is <strong class="fw-bold">extremely likely</strong> that you have pneumonia') | safe}}
+                    
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="based-on-prediction">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5 pt-5">
+            <div class="col-12 col-sm-8 col-lg-6">
+                <div id="outputImageCarousel" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#outputImageCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#outputImageCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#outputImageCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#outputImageCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="data:image/jpeg;base64,{{ image_file }}" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                                <h5>Original</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="data:image/jpeg;base64,{{ CAM_images[0] }}" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                                <h5>DenseNet201</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="data:image/jpeg;base64,{{ CAM_images[1] }}" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                                <h5>MobileNetV2</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="data:image/jpeg;base64,{{ CAM_images[2] }}" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-block">
+                                <h5>NASNetMobile</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#outputImageCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#outputImageCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold mb-3">{{ gettext('Based on predictions') | safe}}</h1>
+                <p class="lead">
+                    {{gettext('Your lungs have a') | safe}}
+                    <strong class="fw-bold">
+                        {{ "%.0f"|format(prediction_results[0]) }}%
+                        </strong>
+                    {{gettext('probability of being infected by pneumonia. For a detailed predictions, please refer to the table below.') | safe}}
+                </p>
+
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead class="table-light">
+                            <th scope="col">{{ gettext('Model Type') | safe}}</th>
+                            <th scope="col">{{ gettext('Normal') | safe}}</th>
+                            <th scope="col">{{ gettext('Pneumonia') | safe}}</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>DenseNet201</td>
+                                <td>
+                                    {{ "%.0f"|format(100 -
+                                    prediction_results[1]) }} %
+                                </td>
+                                <td>
+                                    {{ "%.0f"|format(prediction_results[1])
+                                    }}%
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>MobileNetV2</td>
+                                <td>
+                                    {{ "%.0f"|format(100 -
+                                    prediction_results[2]) }} %
+                                </td>
+                                <td>
+                                    {{ "%.0f"|format(prediction_results[2])
+                                    }}%
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>NASNetMobile</td>
+                                <td>
+                                    {{ "%.0f"|format(100 -
+                                    prediction_results[3]) }} %
+                                </td>
+                                <td>
+                                    {{ "%.0f"|format(prediction_results[3])
+                                    }}%
+                                </td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <th scope="row">{{ gettext('Average') | safe}}</th>
+                            <th>
+                                {{ "%.0f"|format(100 -
+                                prediction_results[0]) }} %
+                            </th>
+                            <th>
+                                {{ "%.0f"|format(prediction_results[0])}}%
+                            </th>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="action-plan" class="bg-even">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5 pt-5">
+            <div class="col-12 col-sm-8 col-lg-6">
+                {% if(0 <= prediction_results[0] and prediction_results[0] < 10) %}
+                <img
+                    src="/static/assets/result-cta-1.jpeg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="A woman meditating in a sunrise view"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext('
+                        Photo by <a target="_blank" href="https://unsplash.com/es/@jareddrice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jared Rice</a> on <a target="_blank" href="https://unsplash.com/s/photos/health?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    ') | safe }}
+                </p>
+                
+
+                {% elif(10 <= prediction_results[0] and prediction_results[0] < 40) %}
+                <img
+                    src="/static/assets/result-cta-2.jpeg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="A character's hand that resembles stop"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />    
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext('
+                        Photo by <a target="_blank" href="https://unsplash.com/@markusspiske?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Markus Spiske</a> on <a target="_blank" href="https://unsplash.com/s/photos/caution-hand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                    ') | safe }}
+                </p>                
+
+                {% elif(40 <= prediction_results[0] and prediction_results[0] < 60) %}
+                <img
+                    src="/static/assets/result-cta-3.jpeg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="A thinking man with glasses"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />       
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext('
+                        <a target="_blank" href="https://www.freepik.com/free-photo/serious-thoughtful-man-making-assumption-looking-right-thinking_9902339.htm#query=thinking&position=3&from_view=search&track=sph">Image by cookie_studio</a> on Freepik
+                    ') | safe }}
+                </p>             
+
+                {% elif(60 <= prediction_results[0] and prediction_results[0] < 90) %}
+                <img
+                    src="/static/assets/result-cta-4.jpeg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="A doctor who showed the diagnosis report to a patient"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                /> 
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext('
+                        <a target="_blank" href="https://www.freepik.com/free-photo/physician-consulting-his-patient-clinic_6190327.htm#query=health%%20consultation&position=0&from_view=search&track=sph">Image by senivpetro</a> on Freepik
+                    ') | safe }}
+                </p>                   
+                
+                {% elif(90 <= prediction_results[0] and prediction_results[0] <= 100) %}
+                <img
+                    src="/static/assets/result-cta-5.jpeg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="A doctor analyzing lung X-ray image"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />  
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext('
+                        <a target="_blank" href="https://www.freepik.com/free-photo/young-asia-female-doctor-white-medical-uniform-using-clipboard-is-delivering-great-news-talk-discuss-results_15114515.htm#query=health%%20consultation&position=19&from_view=search&track=sph">Image by tirachardz</a> on Freepik
+                    ') | safe }}
+                </p>                  
+                
+                {% endif %}
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold mb-3">
+                    {% if(0 <= prediction_results[0] and prediction_results[0] < 10) %}
+                    {{ gettext('There\'s no need to worry!') | safe}}
+
+                    {% elif(10 <= prediction_results[0] and prediction_results[0] < 40) %}
+                    {{ gettext('Caution is advised!') | safe}}
+
+                    {% elif(40 <= prediction_results[0] and prediction_results[0] < 60) %}
+                    {{ gettext('Consider consulting with your physician!') | safe}}
+
+                    {% elif(60 <= prediction_results[0] and prediction_results[0] < 90) %}
+                    {{ gettext('Visit your physician immediately!') | safe}}
+                    
+                    {% elif(90 <= prediction_results[0] and prediction_results[0] <= 100) %}
+                    {{ gettext('Immediately visit your local hospital!') | safe}}
+                    
+                    {% endif %}
+                </h1>
+                <p class="lead">
+                    {% if(0 <= prediction_results[0] and prediction_results[0] < 10) %}
+                    {{ gettext('Your lungs are healthy, but that doesn\'t mean that you don\'t have to stay healthy! Remember to stay hydrated, get enough sleep, and exercise frequently.
+                    ') | safe}}
+
+                    {% elif(10 <= prediction_results[0] and prediction_results[0] < 40) %}
+                    {{ gettext('There\'s no reason to worry yet, but maybe you can consider these actions! It\'s best to avoid smoking and going to public places. Remember to keep track of any symptoms you might have experienced and consult your local physician if symptoms get worse or remain for more than a few days.
+                    ') | safe}}
+
+                    {% elif(40 <= prediction_results[0] and prediction_results[0] < 60) %}
+                    {{ gettext('There is a possibility that you have pneumonic lungs. It\'s best to avoid smoking and going to public places. Remember to keep track of any symptoms you might have experienced and consult your local physician if symptoms get worse or remain for more than a few days.
+                    ') | safe}}
+
+                    {% elif(60 <= prediction_results[0] and prediction_results[0] < 90) %}
+                    {{ gettext('Since we think that you probably have pneumonic lungs, it\'s best for you to avoid public places and get enough rest. Remember to visit your local physician immediately.
+                    ') | safe}}
+                    
+                    {% elif(90 <= prediction_results[0] and prediction_results[0] <= 100) %}
+                    {{ gettext('You are extremely likely to have pneumonic lungs, we encourage you to drink more warm beverages, avoid public places, and consider going to a hospital for treatment.
+                    ') | safe}}
+                    
+                    {% endif %}
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div
+        class="mt-auto col-xxl-8 container d-flex-col flex-wrap justify-content-between align-items-center py-5 px-4"
+    >
+        <h1 class="display-6 fw-bold text-lg-center pt-5">
+            {{ gettext('Want to re-diagnose?') | safe}}
+        </h1>
+        <div class="col-lg-6 mx-auto text-lg-center pb-5">
+            <p class="lead text-lg-center">
+                {{ gettext('ParuParuKu will help predict your 
+                pneumonia diagnosis result based on your X-ray scan!') | safe}}
+            </p>
+            <form
+                autocomplete="off"
+                method="POST"
+                action="{{ url_for('multilingual.detection') }}"
+                enctype="multipart/form-data"
+            >
+                <div class="input-group mb-3">
+                    <input
+                        type="file"
+                        accept="image/png, image/jpeg, image/jpg"
+                        name="user_image_input"
+                        class="form-control"
+                        id="user_image_input"
+                        required`
+                    />
+                    <button
+                        type="submit"
+                        class="input-group-text btn btn-primary"
+                        onclick="toggleUploadLoader()"
+                    >
+                    {{ gettext('Submit') | safe}}
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}

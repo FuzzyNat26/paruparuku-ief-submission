@@ -1,0 +1,140 @@
+{% extends "layout.html" %} {% block title %} {{ gettext('Our Objectives') |
+safe }} {% endblock %} {% block content%}
+
+<section class="bg-even">
+    <div class="container px-4 py-5 text-start d-flex-col">
+        <h1 class="display-6 pt-5 fw-bold text-lg-center">
+            {{ gettext('Our Objectives') | safe }}
+        </h1>
+        <div class="col-lg-6 mx-auto text-lg-center pb-5">
+            <p class="lead text-lg-center">
+                {{ gettext('is to provide users with
+                <strong class="fw-semibold">early detection</strong>
+                of pneumonia based on X-ray images!') | safe }}
+            </p>
+        </div>
+    </div>
+</section>
+<section id="seputar-pneumonia">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/objectives-doctor-1.jpg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="A doctor diagnosing an X-ray image"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext(' Photo by
+                    <a target="_blank"
+                        href="https://www.alodokter.com/mengenal-macam-macam-pneumonia"
+                        >dr. Irene Cindy Sunur</a
+                    >
+                    on
+                    <a target="_blank"
+                        href="https://www.alodokter.com/mengenal-macam-macam-pneumonia"
+                        >Alodokter</a
+                    >
+                    ') | safe }}
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold mb-3">
+                    {{ gettext('About pneumonia') | safe }}
+                </h1>
+                <p class="lead">
+                    {{ gettext('Pneumonia is an inflammation of the tissue in
+                    lungs caused by infection. Pneumonia can cause mild to
+                    severe symptoms, such as coughing, fever, nausea, wheezing,
+                    shortness of breath, and chest pain.<br /><br />
+                    Pneumonia is not only found in adults but also in
+                    children.') | safe }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="urgensi-pneumonia" class="bg-even">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/objectives-doctor-2.jpg"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="Few doctors are checking on equipments"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+                <p class="text-start text-lg-center text-secondary mt-2">
+                    {{ gettext('Photo by
+                    <a target="_blank"
+                        href="https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                        >Walter Otto</a
+                    >
+                    on
+                    <a target="_blank"
+                        href="https://unsplash.com/@mio6556?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+                        >Unsplash</a
+                    >
+                    ') | safe }}
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h1 class="fw-bold mb-3">
+                    {{ gettext('Why should you use this ParuParuKu?') | safe }}
+                </h1>
+                <p class="lead">
+                    {{ gettext('There are times when doctors aren\'t available to
+                    make a diagnosis on recently performed X-ray scans.
+                    <br /><br />So early diagnosis is needed to take further
+                    action.') | safe }}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section>
+    <div
+        class="mt-auto col-xxl-8 container d-flex-col flex-wrap justify-content-between align-items-center py-5 px-4"
+    >
+        <h1 class="display-6 fw-bold text-lg-center pt-5">
+            {{ gettext('Which is why, we are ready to help!') | safe }}
+        </h1>
+        <div class="col-lg-6 mx-auto text-lg-center pb-5">
+            <p class="lead text-lg-center">
+                {{ gettext('ParuParuKu will help predict your pneumonia
+                diagnosis result based on your X-ray scan.') | safe }}
+            </p>
+            <form
+                autocomplete="off"
+                method="POST"
+                action="{{ url_for('multilingual.detection') }}"
+                enctype="multipart/form-data"
+            >
+                <div class="input-group mb-3">
+                    <input
+                        type="file"
+                        accept="image/png, image/jpeg, image/jpg"
+                        name="user_image_input"
+                        class="form-control"
+                        id="user_image_input"
+                        required`
+                    />
+                    <button
+                        type="submit"
+                        class="input-group-text btn btn-primary"
+                        onclick="toggleUploadLoader()"
+                    >
+                        {{ gettext('Submit')| safe }}
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

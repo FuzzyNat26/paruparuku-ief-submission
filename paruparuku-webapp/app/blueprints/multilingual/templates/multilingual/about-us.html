@@ -1,0 +1,109 @@
+{% extends "layout.html" %} {% block title %}{{ gettext('About Us') | safe}}{%
+endblock %} {% block content%}
+
+<section id="hero">
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5">
+            <div class="col-10 col-sm-8 col-lg-6">
+                <img
+                    src="/static/assets/about-us-team.png"
+                    class="d-block mx-lg-auto img-fluid hero-img"
+                    alt="An illustration of three people side by side in a browser tab that resembles a team"
+                    width="700"
+                    height="500"
+                    loading="lazy"
+                />
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-6 fw-bold mb-3">
+                    {{ gettext('About Us') | safe}}
+                </h1>
+                <p class="lead">
+                    {{ gettext(' We are four college students called
+                    <strong class="fw-semibold">"Team Pengacara"</strong> from
+                    <a target="_blank" href="https://www.uib.ac.id/"
+                        >Universitas Internasional Batam</a
+                    >. <br /><br />
+                    ParuParuKu is a Flask-based web application that was built
+                    by our amazing team for detecting pneumonia from patient\'s
+                    X-ray image.') | safe}}
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="book-list">
+    <div class="container col-xxl-8 mb-4 px-4">
+        <h1 class="display-6 fw-bold mb-3">
+            {{ gettext('Team Member') | safe}}
+        </h1>
+        <div
+            class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3"
+        >
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img
+                        class="bd-placeholder-img card-img-top hero-img"
+                        src="/static/assets/jonathan.svg"
+                        alt="An avatar of Jonathan"
+                        width="100%"
+                        height="225"
+                    />
+                    <div class="card-body">
+                        <h4 class="card-text h5 fw-semibold">Jonathan</h4>
+                        <p>2031016</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img
+                        class="bd-placeholder-img card-img-top hero-img"
+                        src="/static/assets/henry.svg"
+                        alt="An avatar of Henry"
+                        width="100%"
+                        height="225"
+                    />
+                    <div class="card-body">
+                        <h4 class="card-text h5 fw-semibold">Henry</h4>
+                        <p>2031119</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img
+                        class="bd-placeholder-img card-img-top hero-img"
+                        src="/static/assets/marvin-christian.svg"
+                        alt="An avatar of Marvin Christian"
+                        width="100%"
+                        height="225"
+                    />
+                    <div class="card-body">
+                        <h4 class="card-text h5 fw-semibold">
+                            Marvin Christian
+                        </h4>
+                        <p>2031140</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card shadow-sm">
+                    <img
+                        class="bd-placeholder-img card-img-top hero-img"
+                        src="/static/assets/nicky-nicholas.svg"
+                        alt="An avatar of Nicky Nicholas"
+                        width="100%"
+                        height="225"
+                    />
+                    <div class="card-body">
+                        <h4 class="card-text h5 fw-semibold">Nicky Nicholas</h4>
+                        <p>2031160</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
